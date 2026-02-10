@@ -84,10 +84,16 @@
 
 .cover__title {
   position: relative;
+  top: 165px;
+  right: 50px;
+  bottom: 207px;
+  left: 50px;
   z-index: 2;
-  min-width: 1000px;
-  /* height: auto; */
-  padding: 165px 50px 207px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  width: 1000px;
+  height: 385px;
   color: #ffffff;
   font-weight: bold;
   font-size: 100px;
@@ -96,6 +102,7 @@
 
 .aligned-text {
   display: block;
+  width: 100%;
 }
 
 .aligned-text_left {
@@ -103,16 +110,10 @@
 }
 
 .aligned-text_center {
-  position: absolute;
-  top: 300px;
-  left: 380px;
   text-align: center;
 }
 
 .aligned-text_right {
-  position: absolute;
-  top: 435px;
-  left: 663px;
   text-align: right;
 }
 
@@ -159,7 +160,6 @@
 
 .lots {
   width: 1100px;
-  /* height: auto; */
   margin: 180px 24px 0;
 }
 
@@ -210,11 +210,11 @@
 
 .card {
   position: relative;
-  height: 100%;
-  max-width: 334px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 334px;
+  height: 100%;
 }
 
 .card__title {
@@ -255,7 +255,6 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   column-gap: 25px;
-  /* height: auto; */
   margin: 120px 24px 180px;
 }
 
@@ -307,7 +306,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
-  /* height: auto; */
 }
 
 .footer_address {
@@ -323,7 +321,6 @@
 }
 
 .footer__menu-list-item {
-  /* justify-self: center; */
   font-weight: normal;
   font-size: 18px;
 }
