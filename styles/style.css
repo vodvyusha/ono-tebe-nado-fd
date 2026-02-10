@@ -159,7 +159,7 @@
 }
 
 .lots {
-  width: 1100px;
+  max-width: 1052px;
   margin: 180px 24px 0;
 }
 
@@ -183,7 +183,7 @@
 
 .lots__card-list-item {
   position: relative;
-  min-width: 334px;
+  max-width: 334px;
   height: 596px;
   list-style: none;
   background-position: center;
