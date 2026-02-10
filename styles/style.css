@@ -1,3 +1,13 @@
+.header,
+.main,
+.cover,
+.lots,
+.about,
+.footer {
+  width: 1100px;
+  margin: 0 auto;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -159,11 +169,14 @@
 }
 
 .lots {
-  width: 1100px;
-  margin: 180px 24px 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 180px auto 0;
+  padding: 0 24px;
 }
 
 .lots__heading {
+  width: 100%;
   padding: 0 0 27px 40px;
   font-weight: bold;
   font-size: 40px;
@@ -255,7 +268,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   column-gap: 25px;
-  margin: 120px 24px 180px;
+  margin: 120px auto 180px;
 }
 
 .about__logo__column {
